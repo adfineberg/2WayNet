@@ -31,7 +31,7 @@ class Params:
     # endregion
 
     # region Architecture
-    LAYER_SIZES = [392, 50, 392]  # Size of the hidden layers
+    LAYER_SIZES = [29, 10, 56]  # Size of the hidden layers
     OUTPUT_LAYER = 1  # The layer from which to take the representations
     DROP_PROBABILITY = 0.5  # Probability for removing a neuron in the dropout/tied dropout layer
     WEIGHT_INIT = lasagne.init.GlorotUniform()  # Initialization method for the weights
